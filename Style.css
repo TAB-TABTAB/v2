@@ -37,7 +37,7 @@ header .logo{
     height: 20PX;
 }
 
-header .logo <div class="container">{
+header .logo img{
     width: 100px;
     height: 70px;
     object-fit: contain;
