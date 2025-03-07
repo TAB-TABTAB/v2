@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site math</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        .bests-items .container button[type="submit"] {
+            background-color: #007bff; /* Couleur de fond bleue */
+            color: white; /* Couleur du texte blanc */
+            padding: 10px 20px; /* Espacement interne */
+            border: none; /* Supprimer la bordure */
+            border-radius: 5px; /* Bordures arrondies */
+            cursor: pointer; /* Curseur de pointeur au survol */
+            font-size: 16px; /* Taille de la police */
+            transition: background-color 0.3s ease; /* Transition douce au survol */
+            
+        }
+
+        .bests-items .container button[type="submit"]:hover {
+            background-color: #0056b3; /* Couleur de fond plus foncée au survol */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://cdn.pixabay.com/photo/2022/04/28/22/26/pyramids-7162111_1280.png" alt="Pyramides de Gizeh">
+            <h1>GIZEH</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#projet1">Projet 1</a></li>
+                <li><a href="#projet2">Projet 2</a></li>
+                <li><a href="#projet3">Projet 3</a></li>
+                <li><a href="#projet4">Projet 4</a></li>
+                <li><a href="#projet5">Projet 5</a></li>
+                <li><a href="#projet6">Projet 6</a></li>
+                <li><a href="#projet7">Projet 7</a></li>
+            </ul>
+        </nav>
+        <div class="small_menu">
+            <span><div></div><div></div></span>
+            <span><div></div><div></div></span>
+        </div>
+    </header>
+    <main>
+        <section class="home">
+            <div class="left">
+                <h1>Les pyramides de <span>Gizeh</span></h1>
+                <h4>Commençons la visite ensemble !</h4>
+                <div class="text_container">
+                    <p>Nous recréons les pyramides de Gizeh, mariant précision architecturale et ingéniosité mathématique.</p>
+                    <p>La Semaine des Mathématiques devient le théâtre d'une exposition où passé et présent se rencontrent.</p>
+                    <p>Découvrez chaque maquette et évaluez-les une par une via cette interface !</p>
+                </div>
+                <button class="button-link">
+                    <a href="#projet1">C'est partie !</a>
+                </button>
+            </div>
+            <div class="right">
+                <div class="video-container">
+                    <iframe title="Presentation des Pyramides" width="100%" height="100%" src="https://www.youtube.com/embed/ITYFvAP98qs?controls=0&autoplay=1&loop=1&playlist=ITYFvAP98qs&modestbranding=1&mute=1&showinfo=0&si=WzP37wSkr0c-hhhQ&cc_load_policy=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <form action="https://formspree.io/f/xbldnpbk" method="POST">
+            <section class="bests-items" id="projet1">
+                <h2 class="section-title">Projet 1</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant3 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h1>Qu'avez-vous pensé du projet 1 ?</h1>
+                    <label for="name1">Nom:</label>
+                    <input type="text" id="name1" name="name1" placeholder="Nom" required>
+                    <input type="hidden" name="Projet1" value="1">
+                    <label for="note1">Note:</label>
+                    <select id="note1" name="note1">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message1">Remarque (facultatif):</label>
+                    <textarea id="message1" name="message1" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet2">
+                <h2 class="section-title">Projet 2</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h1>Qu'avez-vous pensé du projet 2 ?</h1>
+                    <input type="hidden" name="Projet2" value="2">
+                    <label for="note2">Note:</label>
+                    <select id="note2" name="note2">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message2">Remarque (facultatif):</label>
+                    <textarea id="message2" name="message2" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet3">
+                <h2 class="section-title">Projet 3</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h2>Qu'avez-vous pensé du projet 3 ?</h2>
+                    <input type="hidden" name="Projet3" value="3">
+                    <label for="note3">Note:</label>
+                    <select id="note3" name="note3">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message3">Remarque (facultatif):</label>
+                    <textarea id="message3" name="message3" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet4">
+                <h2 class="section-title">Projet 4</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h2>Qu'avez-vous pensé du projet 4 ?</h2>
+                    <input type="hidden" name="Projet4" value="4">
+                    <label for="note4">Note:</label>
+                    <select id="note4" name="note4">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message4">Remarque (facultatif):</label>
+                    <textarea id="message4" name="message4" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet5">
+                <h2 class="section-title">Projet 5</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h2>Qu'avez-vous pensé du projet 5 ?</h2>
+                    <input type="hidden" name="Projet5" value="5">
+                    <label for="note5">Note:</label>
+                    <select id="note5" name="note5">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message5">Remarque (facultatif):</label>
+                    <textarea id="message5" name="message5" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet6">
+                <h2 class="section-title">Projet 6</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h2>Qu'avez-vous pensé du projet 6 ?</h2>
+                    <input type="hidden" name="Projet6" value="6">
+                    <label for="note6">Note:</label>
+                    <select id="note6" name="note6">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message6">Remarque (facultatif):</label>
+                    <textarea id="message6" name="message6" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <section class="bests-items" id="projet7">
+                <h2 class="section-title">Projet 7</h2>
+                <div class="best-plants">
+                    <figure class="plant-box plant4 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant1 no-grid"><div class="plant-details"></div></figure>
+                    <figure class="plant-box plant2 no-grid"><div class="plant-details"></div></figure>
+                </div>
+                <div class="container">
+                    <h1>Qu'avez-vous pensé du projet 7 ?</h1>
+                    <input type="hidden" name="Projet7" value="7">
+                    <label for="Note7">Note:</label>
+                    <select id="note7" name="Note7">
+                        <option value="Mauvais">Mauvais</option>
+                        <option value="Assez bien">Assez bien</option>
+                        <option value="Bien">Bien</option>
+                        <option value="Très bien">Très bien</option>
+                        <option value="Excellent">Excellent</option>
+                    </select>
+                    <label for="message7">Remarque (facultatif):</label>
+                    <textarea id="message7" name="message7" placeholder="Avez-vous une remarque ?"></textarea>
+                </div>
+            </section>
+
+            <form>
+                <section class="bests-items">
+                    <div class="container">
+                        <button type="submit">Envoyer</button>
+                    </div>
+                </section>
+            </form>
+        </form>
+    </main>
+    <footer>
+        <p>Ce projet a été réalisé par les élèves de la seconde 4 et a été organisé par Mme Abid. Site réalisé par Miled Youssef.</p>
+    </footer>
+</body>
+</html>
