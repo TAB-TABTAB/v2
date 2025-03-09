@@ -522,6 +522,15 @@ footer p {
     .imgZ{
         background-size: 325px;
     }
+    .imgG{
+        rotate: 270deg;
+        background-size: 300px;
+    }
+    
+    .imgX{
+        rotate: 270deg;
+        background-size: 250px;
+    }
 }
     
     footer p {
