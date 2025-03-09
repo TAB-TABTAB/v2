@@ -531,6 +531,9 @@ footer p {
         rotate: 270deg;
         background-size: 250px;
     }
+    .imgR{
+        background-size: 400px;
+    }
 }
     
     footer p {
