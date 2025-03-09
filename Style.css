@@ -504,6 +504,17 @@ footer p {
     h1 {
         font-size: 1.6rem; /* Réduction de la taille de la police pour les petits écrans */
     }
+
+    .imgF{
+        background-size: 500px;
+    }
+
+    .imgS{
+        rotate: 270deg;
+    }
+    .imgT{
+        rotate: 270deg;
+    }
 }
     
     footer p {
