@@ -499,11 +499,11 @@ footer p {
         box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
     }
     .container {
-        padding: 1.5rem; /* Réduction supplémentaire du rembourrage pour les très petits écrans */
+        padding: 1.5rem; 
     }
 
     h1 {
-        font-size: 1.6rem; /* Réduction de la taille de la police pour les petits écrans */
+        font-size: 1.6rem; 
     }
 
     .imgF{
@@ -537,7 +537,7 @@ footer p {
 }
     
     footer p {
-        margin: 0; /* Supprimer la marge par défaut des paragraphes */
+        margin: 0; 
     }
 
     
